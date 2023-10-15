@@ -1,0 +1,5 @@
+# weather
+[weather]
+interval=3600
+color=#fab387
+command=curl -Ss 'https://wttr.in/CITY?format=2' | xargs echo
